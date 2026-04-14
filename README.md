@@ -18,4 +18,17 @@ The aim of this thesis is to describe the elements underlying the design of a tr
 At the moment, the thesis is only available in Italian, but the code in this repository is written and commented so that it can be understood by anyone.
 
 ## Files Summary
+##### Generic Auxiliary Functions
+| **File** | **Description** |
+|:--|--|
+| `R_x.m` | Given an angle, computes elemental rotation matrix around X axis. |
+| `R_y.m` | Given an angle, computes elemental rotation matrix around Y axis. |
+| `R_z.m` | Given an angle, computes elemental rotation matrix around Z axis. |
+
+##### Forward Kinematics
+| **File** | **Description** |
+|:--|--|
+| `DH.m` | Function that computes transformation matrix from RF~0~ to RF~n~ using Denavit-Hartenberg (DH) convention for reference frames. |
+| `forward_kinematics_hand.m` | Script that computes forward kinematics of the whole hand, i.e. the homogeneous transformation matrices from the forearm to each fingertip. |
+
 WIP
