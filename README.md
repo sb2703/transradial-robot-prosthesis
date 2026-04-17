@@ -28,7 +28,7 @@ At the moment, the thesis is only available in Italian, but the code in this rep
 ##### Forward Kinematics
 | **File** | **Description** |
 |:--|--|
-| `DH.m` | Function that computes transformation matrix from RF~0~ to RF~n~ using Denavit-Hartenberg (DH) convention for reference frames. |
+| `DH.m` | Function that computes transformation matrix from RF_0 to RF_n using Denavit-Hartenberg (DH) convention for reference frames. |
 | `forward_kinematics_hand.m` | Script that computes forward kinematics of the whole hand, i.e. the homogeneous transformation matrices from the forearm to each fingertip. |
 
 WIP
