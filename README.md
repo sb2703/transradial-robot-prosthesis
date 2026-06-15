@@ -5,8 +5,8 @@
 This repository contains the code written for my master thesis in Computer Engineering and Robotics, "Modeling, Control and Simulation of a Transradial Robotic Prosthesis", at University of Perugia (Italy).
 
 ## Contents
-- [Thesis Summary](#1)
-- [Files Summary](#2)
+- [Thesis Summary](#thesis-summary)
+- [Files Summary](#files-summary)
 
 ## Thesis Summary
 The aim of this thesis is to describe the elements underlying the design of a transradial robotic prosthesis: the kinematic model, the dynamic model and the control law. 
