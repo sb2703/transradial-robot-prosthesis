@@ -22,6 +22,7 @@
 ##### Workspaces and Kapandji Score
 | **File** | **Description** |
 |:--|--|
+| `newton.m` | Function that implements Newton algorithm to solve inverse kinematics problem. |
 | `workspace_nt.m` | Function that computes workspace of given non-thumb finger. |
 | `workspace_t.m` | Function that computes workspace of thumb finger. |
 | `workspaces.m` | Script that plots primary workspace of both fingertips and wrist. |
