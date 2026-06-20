@@ -1,7 +1,7 @@
 function ps = workspace_t(roms, a, R)
 % Computes workspace of thumb.
 % IN - roms: Ranges of Motion (RoMs) of thumb
-% IN - pars: anthropometric parameters of thumb
+% IN - a: anthropometric parameters of thumb
 % IN - R: rotation matrix from wrist to thumb base
 % OUT - ps: points representing workspace
 

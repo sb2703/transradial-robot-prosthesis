@@ -1,7 +1,7 @@
 function ps = workspace_nt(roms, a)
 % Computes workspace of given non-thumb finger.
 % IN - roms: Ranges of Motion (RoMs) of non-thumb finger
-% IN - pars: anthropometric parameters of non-thumb finger
+% IN - a: anthropometric parameters of non-thumb finger
 % OUT - ps: points representing workspace
 
 % Extraction of anthropometric parameters of non-thumb finger
