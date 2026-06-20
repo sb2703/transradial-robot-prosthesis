@@ -49,6 +49,7 @@ At the moment, the thesis is only available in Italian, but the code in this rep
 | `workspace_pf.m` | Function that computes workspace of given non-thumb finger, with reference to both the fingertip and the (midpoint of) proximal phalanx. |
 | `workspace_pip.m` | Function that computes workspace of given non-thumb finger, with reference to both the fingertip and the proximal interphalangeal (PIP) joint. |
 | `workspace_t.m` | Function that computes workspace of thumb finger. |
+| `workspace_w.m` | Function that computes workspace of spherical wrist. |
 | `workspaces.m` | Script that plots primary workspace of both fingertips and wrist. |
 
 WIP
