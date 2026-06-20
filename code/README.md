@@ -23,7 +23,12 @@
 | **File** | **Description** |
 |:--|--|
 | `newton.m` | Function that implements Newton algorithm to solve inverse kinematics problem. |
+| `workspace_df.m` | Function that computes workspace of given non-thumb finger, with reference to both the fingertip and the (midpoint of) distal phalanx. |
+| `workspace_dip.m` | Function that computes workspace of given non-thumb finger, with reference to both the fingertip and the distal interphalangeal (DIP) joint. |
+| `workspace_mf.m` | Function that computes workspace of given non-thumb finger, with reference to both the fingertip and the (midpoint of) middle phalanx. |
 | `workspace_nt.m` | Function that computes workspace of given non-thumb finger. |
+| `workspace_pf.m` | Function that computes workspace of given non-thumb finger, with reference to both the fingertip and the (midpoint of) proximal phalanx. |
+| `workspace_pip.m` | Function that computes workspace of given non-thumb finger, with reference to both the fingertip and the proximal interphalangeal (PIP) joint. |
 | `workspace_t.m` | Function that computes workspace of thumb finger. |
 | `workspaces.m` | Script that plots primary workspace of both fingertips and wrist. |
 
