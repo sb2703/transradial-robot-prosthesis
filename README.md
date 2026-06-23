@@ -54,4 +54,10 @@ At the moment, the thesis is only available in Italian, but the code in this rep
 | `workspace_w.m` | Function that computes workspace of spherical wrist. |
 | `workspaces.m` | Script that plots primary workspace of both fingertips and wrist. |
 
+##### Dynamic Model
+| **File** | **Description** |
+|:--|--|
+| `link_inertia.m` | Function that computes inertia tensor of link in RF_0. |
+| `palm_inertia.m` | Function that computes inertia tensor of palm in RF_0. |
+
 WIP
