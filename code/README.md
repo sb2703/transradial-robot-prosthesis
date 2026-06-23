@@ -23,6 +23,7 @@
 | **File** | **Description** |
 |:--|--|
 | `find_contact_point.m` | Function that, given the workspaces of the thumb and a non-thumb finger, finds the best contact point (with reference to thumb fingertip). |
+| `kapandji_test.m` | Script that computes and plots all 11 tests proposed by I. A. Kapandji for evaluating thumb opposition. |
 | `newton.m` | Function that implements Newton algorithm to solve inverse kinematics problem. |
 | `workspace_df.m` | Function that computes workspace of given non-thumb finger, with reference to both the fingertip and the (midpoint of) distal phalanx. |
 | `workspace_dip.m` | Function that computes workspace of given non-thumb finger, with reference to both the fingertip and the distal interphalangeal (DIP) joint. |
