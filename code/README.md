@@ -47,5 +47,6 @@ N.B. The division into groups is just for clarity; some scripts or functions fro
 ##### Simulation
 | **File** | **Description** |
 |:--|--|
-| `dyn_end_stops.m` | Auxiliary function that ensures joint variables are within end-stops. |
-| `plot_simulation.m` | Auxiliary function that plots the result of a simulation made with `dyn_model.m` and then saves it as a video. |
+| `controller_inv_dyn.m` | Function that computes actuation forces necessary to track a reference signal, using a controller based on inverse dynamics control. |
+| `dyn_end_stops.m` | Function that ensures joint variables are within end-stops. |
+| `plot_simulation.m` | Function that plots the result of a simulation made with `dyn_model.m` and then saves it as a video. |
