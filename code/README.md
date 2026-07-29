@@ -1,4 +1,6 @@
 ## Files Summary
+N.B. The division into groups is just for clarity; some scripts or functions from one group may require functions from other groups.
+
 ##### Generic Auxiliary Functions
 | **File** | **Description** |
 |:--|--|
