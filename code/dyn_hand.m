@@ -24,7 +24,32 @@ m_w = [m_w1, m_w2];
 a_p = sym(72)/1000;
 d_p = sym(75)/1000;
 p_thickness = sym(20)/1000;
-p = [a_p, d_p];
+
+d_pt = d_p/3;
+a_pt = 0;
+
+d_pi = d_p/3;
+a_pi = a_p;
+
+d_pm = 0;
+a_pm = a_p;
+
+d_pr = -d_p/3;
+a_pr = a_p;
+
+d_pl = -2*d_p/3;
+a_pl = a_p;
+
+p = [d_pt;
+     a_pt;
+     d_pi;
+     a_pi;
+     d_pm;
+     a_pm;
+     d_pr;
+     a_pr;
+     d_pl;
+     a_pl];
 
 m_p = density*a_p*d_p*p_thickness;
 
