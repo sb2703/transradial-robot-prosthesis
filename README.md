@@ -61,4 +61,7 @@ At the moment, the thesis is only available in Italian, but the code in this rep
 | `link_inertia.m` | Function that computes inertia tensor of link in RF_0. |
 | `palm_inertia.m` | Function that computes inertia tensor of palm in RF_0. |
 
-WIP
+##### Simulation
+| **File** | **Description** |
+|:--|--|
+| `plot_simulation.m` | Auxiliary function that plots the result of a simulation made with `dyn_model.m` and then saves it as a video. |
