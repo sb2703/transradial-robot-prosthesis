@@ -57,6 +57,7 @@ At the moment, the thesis is only available in Italian, but the code in this rep
 ##### Dynamic Model
 | **File** | **Description** |
 |:--|--|
+| `dyn_hand.m` | Script that derives the dynamic model of the whole hand (through Lagrange formulation). |
 | `link_inertia.m` | Function that computes inertia tensor of link in RF_0. |
 | `palm_inertia.m` | Function that computes inertia tensor of palm in RF_0. |
 
