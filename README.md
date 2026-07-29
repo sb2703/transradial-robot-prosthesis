@@ -18,6 +18,8 @@ The aim of this thesis is to describe the elements underlying the design of a tr
 At the moment, the thesis is only available in Italian, but the code in this repository is written and commented so that it can be understood by anyone.
 
 ## Files Summary
+N.B. The division into groups is just for clarity; some scripts or functions from one group may require functions from other groups.
+
 ##### Generic Auxiliary Functions
 | **File** | **Description** |
 |:--|--|
